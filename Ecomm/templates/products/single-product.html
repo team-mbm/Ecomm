@@ -27,7 +27,7 @@ Store | Product
                     <div class="product-content-right">
                         <div class="product-breadcroumb">
                             <a href="{% url "products:index" %}">Home</a>
-                            <a href="#">{{ item.category }}</a>
+                            <a href="{% url "products:category" item.category %}">{{ item.category }}</a>
                             <a href="">{{ item.title}}</a>
                         </div>
 

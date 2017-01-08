@@ -6,7 +6,7 @@ class Product(models.Model):
     price = models.IntegerField()
     company = models.CharField(max_length=50)
     image = models.ImageField(upload_to="product_pics")
-    wide_image = models.ImageField(upload_to="product_pics_wide", null=True)
+    wide_image = models.ImageField(upload_to="product_pics_wide", null=True, blank=True)
 
     description = models.CharField(max_length=1000)
     def __str__(self):
