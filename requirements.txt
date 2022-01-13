@@ -77,7 +77,7 @@ oauthlib==1.1.2
 parse-torrent-name==1.1.0
 pbr==1.10.0
 pexpect==4.0.1
-Pillow==2.5.1
+Pillow==9.0.0
 praw==3.5.0
 ptyprocess==0.5
 pyasn1==0.1.9
